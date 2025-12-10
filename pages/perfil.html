@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyGymBro</title>
+    <script defer src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="h1-nav">MyGymBro</h1>
+        <ul class="ul-nav">
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./clases.html">Clases</a></li>
+          <li><a href="./perfil.html">Datos personales</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="section-imgperfil">
+        <div>
+          <img class="foto-perfil" src="../img/perfil-default.png" alt="" />
+        </div>
+        <button class="button-cambiarimg">Cambiar imagen</button>
+      </section>
+      <form class="formperfil" id="form-perfil" action="">
+        <div class="fila-perfil">
+          <laber for="nombre">Nombre completo</laber>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Tu nombre"
+          />
+        </div>
+        <div class="fila-perfil">
+          <laber for="fechaNacimiento">Fecha de nacimiento</laber>
+          <input type="date" id="fechaNacimiento" name="fechaNacimiento" />
+        </div>
+        <div class="fila-perfil">
+          <laber for="celular">Celular</laber>
+          <input
+            type="tel"
+            id="celular"
+            name="celular"
+            placeholder="11 1234-5678"
+          />
+        </div>
+        <div class="fila-perfil">
+          <laber for="email">Email</laber>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="correo@ejemplo.com"
+          />
+        </div>
+        <div class="fila-perfil">
+          <laber for="emergencia">Numero de emergencia</laber>
+          <input
+            type="tel"
+            id="emergencia"
+            name="emergencia"
+            placeholder="11
+          1234-5678"
+          />
+        </div>
+      </form>
+    </main>
+    <footer>
+      <div class="footmgb">
+        HORARIOS DE ATENCIO
+        <br />
+        Arturo Orgaz 510, Alberdi | Lunes a Viernes de 07 a 21 hs
+        <br />
+        DALE CAB | mygymbro@belgrano.com
+      </div>
+    </footer>
+  </body>
+</html>
