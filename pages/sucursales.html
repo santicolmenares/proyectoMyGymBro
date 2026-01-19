@@ -5,14 +5,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MyGymBro</title>
-    <script defer src="./js/script.js"></script>
-    <link rel="stylesheet" href="./css/style.css" />
+    <script defer src="../js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,wght@12..36,300..900&display=swap"
         rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -20,26 +21,21 @@
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top my-navbar">
             <div class="container-fluid">
                 <a class="navbar-brand" href="../index.html">MyGymBro</a>
+
                 <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse d-none d-lg-flex">
+
+                <div class="d-none d-lg-flex flex-grow-1">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="./clases.html">Clases</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./perfil.html">Datos personales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./sucursales.html">Sucursales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./contacto.html">Contacto</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link" href="./clases.html">Clases</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./perfil.html">Datos personales</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./sucursales.html">Sucursales</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
                     </ul>
                 </div>
+
                 <div class="offcanvas offcanvas-end text-bg-dark d-lg-none" tabindex="-1" id="offcanvasNavbar">
                     <div class="offcanvas-header">
                         <h5 class="offcanvas-title">Menú</h5>
@@ -48,33 +44,102 @@
 
                     <div class="offcanvas-body">
                         <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="./clases.html">Clases</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./perfil.html">Datos personales</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./sucursales.html">Sucursales</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
-                            </li>
+                            <li class="nav-item"><a class="nav-link" href="./clases.html">Clases</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./perfil.html">Datos personales</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./sucursales.html">Sucursales</a></li>
+                            <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
         </nav>
-        <!--      <nav>
-        <h1 class="h1-nav">MyGymBro</h1>
+        <!--      MIO
+        <nav>
+        <a class="h1-nav">MyGymBro</a>
         <ul class="ul-nav">
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./clases.html">Clases</a></li>
-          <li><a href="./perfil.html">Datos personales</a></li>
-        </ul> -->
-        </nav>
+          <li><a href="./index.html">Inicio</a></li>
+          <li><a href="./pages/clases.html">Clases</a></li>
+          <li><a href="./pages/perfil.html">Datos personales</a></li>
+        </ul>
+      </nav> 
+-->
     </header>
     <main>
+        <section class="container my-4">
+            <h1 class="mb-4 titsucursales">Sucursales</h1>
+
+            <div class="row g-4">
+
+                <!-- Card 1 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3406.6886476412633!2d-64.23616372415445!3d-31.367569993893632!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432993052c2768b%3A0x1006f3d8869b8941!2zQXYuIFJhZmFlbCBOw7rDsWV6IDQzNDQsIFg1MDAwIEPDs3Jkb2Jh!5e0!3m2!1ses-419!2sar!4v1768858455591!5m2!1ses-419!2sar"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">MyGymBro - Cerro</h5>
+                            <p class="card-text mb-2">Av. Rafael Nuñez 4344</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0">
+                            <a class="btn btn-primary w-100"
+                                href="https://www.google.com/maps/place/Av.+Rafael+N%C3%BA%C3%B1ez+4344,+X5000+C%C3%B3rdoba/@-31.36757,-64.2361637,17z/data=!3m1!4b1!4m6!3m5!1s0x9432993052c2768b:0x1006f3d8869b8941!8m2!3d-31.3675746!4d-64.2335888!16s%2Fg%2F11rnf9w2s8?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D"
+                                target="_blank" rel="noopener noreferrer">
+                                Cómo llegar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3407.4903680121697!2d-64.2570609241555!3d-31.345444792825795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94329ea62675b651%3A0xfc3d0a8711ecdf67!2sBRISKBOX%20%5BAtalaya%5D!5e0!3m2!1ses-419!2sar!4v1768858398149!5m2!1ses-419!2sar"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">MyGymBro - Atalaya</h5>
+                            <p class="card-text mb-2">Francisco Palau 6430</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0">
+                            <a class="btn btn-primary w-100"
+                                href="https://www.google.com/maps/place/BRISKBOX+%5BAtalaya%5D/@-31.3454448,-64.2570609,17z/data=!3m1!4b1!4m6!3m5!1s0x94329ea62675b651:0xfc3d0a8711ecdf67!8m2!3d-31.3454494!4d-64.254486!16s%2Fg%2F11cjp8vkgr?entry=ttu&g_ep=EgoyMDI2MDExMy4wIKXMDSoKLDEwMDc5MjA3M0gBUAM%3D"
+                                target="_blank" rel="noopener noreferrer">
+                                Cómo llegar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-12 col-md-6 col-lg-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="ratio ratio-16x9">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.3849337221436!2d-64.20887722415306!3d-31.403518895629716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9432988e27e605e9%3A0xca5a6701c330c816!2sEstadio%20Julio%20C%C3%A9sar%20Villagra!5e0!3m2!1ses-419!2sar!4v1768858614476!5m2!1ses-419!2sar"
+                                style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">MyGymBro - Alberdi</h5>
+                            <p class="card-text mb-2">Arturo Orgaz 510</p>
+                        </div>
+                        <div class="card-footer bg-white border-0 pt-0">
+                            <a class="btn btn-primary w-100" href="https://maps.app.goo.gl/JCJmDYRa49tMgZCR9"
+                                target="_blank" rel="noopener noreferrer">
+                                Cómo llegar
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
 
     </main>
 

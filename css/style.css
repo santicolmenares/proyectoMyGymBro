@@ -1,8 +1,10 @@
 body {
   font-family: "TikTok Sans", sans-serif !important;
+  padding-top: var(--nav-h);
+  padding-bottom: var(--footer-h);
 }
 
-nav {
+.my-navbar {
   background-color: #2682c0;
   border: solid 1px;
 }
@@ -20,12 +22,14 @@ nav {
   font-size: 20px;
 }*/
 
-main {
+.main {
   padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 40px;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
 }
 
 .login-form {
@@ -129,7 +133,8 @@ a:visited {
 }
 
 .button-inscribirse {
-  margin: 15px;
+  display: block;
+  margin: 15px auto;
   padding: 12px 102px;
   background-color: #2682c0;
   color: white;
@@ -204,4 +209,65 @@ a:visited {
   position: fixed;
   bottom: 0;
   border: solid 1px black;
+}
+
+.row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.titsucursales {
+  margin-top: 50px;
+}
+
+:root {
+  --nav-h: 90px;
+  --footer-h: 90px;
+}
+
+
+.sec-contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+.formcontacto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fila-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#mensaje {
+  min-height: 140px;
+  resize: vertical;
+}
+
+.info-contacto {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.info-contacto h3 {
+  margin-bottom: 10px;
+}
+
+.info-contacto p {
+  margin: 0;
+}
+
+.redes a {
+  font-size: 28px;
+  color: #2682c0;
 }
