@@ -143,6 +143,47 @@ a:visited {
   border: 1px solid black;
 }
 
+@media (max-width: 768px) {
+  main {
+    padding: 25px 15px;
+  }
+
+  .creditos {
+    width: 100%;
+    font-size: 25px;
+    padding: 14px;
+    margin: 20px auto;
+  }
+
+  .circulo-creditos {
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
+  }
+
+  .clases-form {
+    width: 100%;
+    margin: 10px auto;
+  }
+
+  .fila-clases {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .fila-clases select {
+    width: 100%;
+    justify-self: stretch;
+  }
+
+  .button-inscribirse {
+    width: 80%;
+    padding: 12px;
+    margin: 15px auto;
+    font-size: 25px;
+  }
+}
+
 .section-imgperfil {
   display: flex;
   flex-direction: column;
@@ -233,6 +274,26 @@ a:visited {
   max-width: 1100px;
   margin: 0 auto;
   padding: 40px 20px;
+}
+
+@media (max-width: 768px) {
+  .sec-contacto {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 25px 15px;
+  }
+
+  .info-contacto {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .redes {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+    margin-top: 10px;
+  }
 }
 
 .formcontacto {
