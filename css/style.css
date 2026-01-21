@@ -313,6 +313,16 @@ a:visited {
   resize: vertical;
 }
 
+.button-msj {
+  margin: 15px;
+  padding: 12px;
+  background-color: #2682c0;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
 .info-contacto {
   display: flex;
   flex-direction: column;
