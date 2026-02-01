@@ -40,6 +40,11 @@ body {
   gap: 10px;
 }
 
+button:hover {
+  transform: translateY(-2px);
+  box-shadow: 1px 2px 1px black;
+}
+
 input {
   padding: 7px 35px;
   font-size: 18px;
@@ -182,6 +187,10 @@ a:visited {
     margin: 15px auto;
     font-size: 25px;
   }
+
+  .footmgb {
+    position: static;
+  }
 }
 
 .section-imgperfil {
@@ -265,7 +274,6 @@ a:visited {
   --nav-h: 90px;
   --footer-h: 90px;
 }
-
 
 .sec-contacto {
   display: grid;
