@@ -8,3 +8,18 @@
 .inputpages::placeholder {
   color: #aaa;
 }
+
+.inputcontacto {
+  width: 100%;
+  max-width: 600px;
+  box-sizing: border-box;
+  padding: 7px 35px;
+  font-size: 18px;
+  border-radius: 3px;
+  border: 2px solid #ccc;
+  color: #000;
+}
+
+.inputcontacto::placeholder {
+  color: #aaa;
+}

@@ -1,3 +1,8 @@
+html,
+body {
+  height: 100%;
+}
+
 body {
   font-family: "TikTok Sans", sans-serif !important;
   padding-top: var(--nav-h);
@@ -190,6 +195,9 @@ a:visited {
 
   .footmgb {
     position: static;
+    padding: 12px 10px;
+    font-size: 14px;
+    line-height: 1.25;
   }
 }
 
@@ -302,6 +310,36 @@ a:visited {
     justify-content: center;
     margin-top: 10px;
   }
+}
+
+.footmgb {
+  width: 100%;
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #2682c0;
+  color: #fff;
+  border-top: 1px solid black;
+}
+.row {
+  display: flex !important;
+  flex-wrap: wrap !important;
+}
+
+.titsucursales {
+  margin-top: 50px;
+}
+
+:root {
+  --nav-h: 90px;
+  --footer-h: 90px;
+}
+.sec-contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 20px;
 }
 
 .formcontacto {

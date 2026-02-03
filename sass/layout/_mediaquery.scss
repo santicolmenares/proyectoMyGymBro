@@ -39,11 +39,11 @@
   }
 
   .footmgb {
-    position: static;
+    padding: 12px 10px;
+    font-size: 14px;
+    line-height: 1.25;
   }
-}
 
-@media (max-width: 768px) {
   .sec-contacto {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -60,5 +60,10 @@
     gap: 14px;
     justify-content: center;
     margin-top: 10px;
+  }
+
+  .inputcontacto {
+    max-width: 100%;
+    padding: 7px 14px;
   }
 }

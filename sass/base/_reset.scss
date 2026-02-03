@@ -1,0 +1,14 @@
+@use "../utilities/variables" as *;
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: $font-text;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: var(--nav-h);
+}

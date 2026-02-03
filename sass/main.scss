@@ -1,5 +1,6 @@
 @use "utilities/variables" as *;
 @use "base/tipografia";
+@use "base/reset";
 @use "components/button-clases";
 @use "components/button-contacto";
 @use "components/button-perfil";
@@ -10,7 +11,6 @@
 @use "components/form-login";
 @use "components/form-perfil";
 @use "components/inputs";
-
 @use "layout/footer";
 @use "layout/main";
 @use "layout/main-contacto";
