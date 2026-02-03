@@ -1,4 +1,5 @@
 body {
+  font-family: "TikTok Sans", sans-serif !important;
   padding-top: var(--nav-h);
   padding-bottom: var(--footer-h);
 }

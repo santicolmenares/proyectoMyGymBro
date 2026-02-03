@@ -1,0 +1,30 @@
+@use "../utilities/variables" as *;
+
+.clases-form {
+  width: 40%;
+  border: 2px solid $third-color;
+  background-color: $second-color;
+  border-radius: 5px;
+  margin: 20px auto;
+}
+
+.fila-clases {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 12px 15px;
+  border-bottom: 1px solid $second-color;
+  align-items: center;
+}
+
+.fila-clases span {
+  font-size: 16px;
+}
+
+.fila-clases select {
+  justify-self: end;
+  width: 300px;
+  padding: 6px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid $four-color;
+}

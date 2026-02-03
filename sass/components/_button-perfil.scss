@@ -1,0 +1,9 @@
+@use "../utilities/variables" as *;
+
+.button-cambiarimg {
+  margin-top: 10px;
+  background-color: $primary-color;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+}

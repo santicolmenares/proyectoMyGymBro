@@ -1,0 +1,16 @@
+.formcontacto {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fila-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+#mensaje {
+  min-height: 140px;
+  resize: vertical;
+}

@@ -1,0 +1,29 @@
+@use "../utilities/variables" as *;
+
+.creditos {
+  width: 60%;
+  background-color: $primary-color;
+  color: white;
+  padding: 20px;
+  border: 2px solid $third-color;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px auto;
+  font-size: 30px;
+}
+
+.circulo-creditos {
+  width: 55px;
+  height: 55px;
+  border: 2px solid $third-color;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}

@@ -1,0 +1,19 @@
+@use "../utilities/variables" as *;
+
+.my-navbar {
+  background-color: $primary-color;
+  border: solid 1px;
+}
+
+/*.a-nav {
+  padding-right: 500px;
+}
+
+.ul-nav {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  align-items: center;
+  text-align: right;
+  font-size: 20px;
+}*/

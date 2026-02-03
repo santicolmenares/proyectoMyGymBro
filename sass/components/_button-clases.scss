@@ -1,0 +1,12 @@
+@use "../utilities/variables" as *;
+
+.button-inscribirse {
+  display: block;
+  margin: 15px auto;
+  padding: 12px 102px;
+  background-color: $primary-color;
+  color: white;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 1px solid black;
+}

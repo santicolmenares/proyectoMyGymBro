@@ -1,0 +1,12 @@
+@use "../utilities/variables" as *;
+
+.footmgb {
+  width: 99%;
+  text-align: center;
+  padding: 20px 0;
+  background-color: $primary-color;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  border: solid 1px black;
+}
