@@ -193,6 +193,10 @@ main {
   align-items: center;
   padding: 25px 15px;
 }
+main a {
+  color: black;
+  text-decoration: none;
+}
 
 .pass {
   display: flex;
