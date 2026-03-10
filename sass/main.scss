@@ -1,6 +1,12 @@
 @use "utilities/variables" as *;
 @use "base/tipografia";
 @use "base/reset";
+@use "layout/nav";
+@use "layout/main";
+@use "layout/main-contacto";
+@use "layout/main-creditos";
+@use "layout/main-perfil";
+@use "layout/main-sucursales";
 @use "components/button-clases";
 @use "components/button-contacto";
 @use "components/button-perfil";
@@ -12,10 +18,4 @@
 @use "components/form-perfil";
 @use "components/inputs";
 @use "layout/footer";
-@use "layout/main";
-@use "layout/main-contacto";
-@use "layout/main-creditos";
-@use "layout/main-perfil";
-@use "layout/main-sucursales";
 @use "layout/mediaquery";
-@use "layout/nav";

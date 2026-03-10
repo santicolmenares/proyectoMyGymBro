@@ -5,6 +5,27 @@
   border: solid 1px;
 }
 
+.offcanvas {
+  background-color: $primary-color !important;
+  color: white;
+
+  .offcanvas-title,
+  .nav-link {
+    color: white !important;
+  }
+
+  .nav-link:hover,
+  .nav-link:focus,
+  .nav-link:active,
+  .nav-link.active {
+    color: white !important;
+  }
+}
+
+.offcanvas-backdrop {
+  display: none !important;
+}
+
 /*.a-nav {
   padding-right: 500px;
 }
